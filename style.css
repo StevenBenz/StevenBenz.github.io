@@ -88,6 +88,9 @@ header a:hover{
 	font-size: 30px;
 	font-weight: ;
 }
+#showcase h2{
+	font-size: 15px;
+}
 #showcase a{
 	color:#ff8c00;
 }

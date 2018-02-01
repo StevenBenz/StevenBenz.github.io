@@ -4,7 +4,8 @@ body{
 	background-size: cover;
   	background-position: center;
   	background-attachment: fixed;
-  	font-family:'Merienda One', Helvetica, sans-serif;
+  	/*font-family:'Merienda One', Helvetica, sans-serif;*/
+  	font-family: "Lucida Grande", Tahoma;
 	font-weight:bold; 
 	line-height: 1.5;
 	padding:0;
@@ -28,6 +29,7 @@ header{
 	color:#fff;
 	padding-top: 20px;
 	min-height: 60px;	
+	font-style: italic;
 }
 
 

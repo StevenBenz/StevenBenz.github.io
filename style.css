@@ -154,9 +154,3 @@ font-weight: bold;
 	color:#ff8c00;
 
 }
-
-@media screen and (max-width: 768px) {
-	body{
-		font-size: 110%
-	}
-}

@@ -1,16 +1,18 @@
-body{
+html, body{
 	background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-	url('Background2.jpg') no-repeat 0 -350px;
+	url('Background.jpg') no-repeat 0 -350px;
 	background-size: cover;
   	background-position: center;
   	background-attachment: fixed;
-  	font-family: 'Lucida Grande', Tahoma;
-  	font-style: italic;
-	font-weight:bold; 
+  	font-family:'Merienda One', Helvetica, sans-serif;
+	font-weight:bold;
+	font-style: italic; 
 	line-height: 1.5;
 	padding:0;
 	margin:0;
-	border-top: 2px solid red;
+	height: 100%;
+	width: 100%
+
 }
 
 .container{
@@ -30,7 +32,6 @@ header{
 	color:#fff;
 	padding-top: 20px;
 	min-height: 60px;	
-	
 }
 
 
@@ -62,7 +63,7 @@ header nav{
 }
 
 header .highlight, header .current a{
-	color:#ff0000;
+	color:#ff8c00;
 	font-weight: bold;
 
 }
@@ -71,49 +72,73 @@ header a:hover{
 	color:#cccccc;
 	font-weight: bold;
 }
-
 /*showcase*/
 #showcase{
-	padding-top: 20px;
-	margin-top: 70px;
 	min-height: 450px;
 	display: flex;
 	text-align: center;
 	color:#ffffff;
+	text-shadow: 0px 0px 300px #000;
+	margin-bottom: 400px;
 }
 
 #showcase h1{
+	margin-top: 300px;
 	font-size: 70px;
 	margin-bottom: 10px;
 	display: block;
+	
 }
 #showcase p{
-	font-family: Brush Script MT, Brush Script Std, cursive;
-	font-style: normal;
 	font-size: 30px;
 	font-weight: ;
-}
-#showcase h2{
-	font-size: 15px;
 }
 #showcase a{
 	color:#ff8c00;
 }
+.btn{
+	border-radius: 9px;
+	color: #ff8c00;
+	font-size: 135%;
+	padding: 10px 20px;
+	border: solid #ff8c00 3px;
+	text-transform: uppercase;
+	text-decoration: none;
+
+}
+
+.btn:hover{
+	color: #cccccc;
+	border: solid #cccccc 3px;
+}
 /*newsletter */
-#newsletter{
+#content{
+	padding-top: 100px;
+	min-height: 400px;
 	padding: 5px;
 	color: #ffffff;
-	background: #ff8c00;
+	background-color: transparent;
 
 }
 
-#newsletter h1{
-	float: left;
+#content h1{
+	text-align: center;
+
 }
 
+#content img{
+	border-radius: 9px;
+	color:#ff8c00;
+	border: solid #ff8c00 3px;
+	max-width:50%;
+  	max-height:50%;
+
+}
 /*about page */
 #main{
-margin-top: 70px;
+
+text-shadow: 0px 0px 300px #000;
+margin-top: 100px;
 padding-top: 20px;
 font-weight: bold;
 }
@@ -127,4 +152,11 @@ font-weight: bold;
 #main h1{
 	padding-top: 60px;
 	color:#ff8c00;
+
+}
+
+@media screen and (max-width: 768px) {
+	body{
+		font-size: 110%
+	}
 }

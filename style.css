@@ -10,7 +10,7 @@ body{
 	line-height: 1.5;
 	padding:0;
 	margin:0;
-	border-top: 2px #ff0000;
+	border-top: 2px solid red;
 }
 
 .container{
@@ -109,17 +109,6 @@ header a:hover{
 
 #newsletter h1{
 	float: left;
-}
-
-#newsletter form{
-	float:right;
-	margin-top: 15px;
-}
-
-#newsletter input[type="email"]{
-	padding:4px;
-	height: 25px;
-	width: 250px;
 }
 
 /*about page */
